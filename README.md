@@ -26,7 +26,7 @@ The CodeBook.md file (part of this repo) explains the following
 
 Step-by-step explanation of `run_analysis.R`: Explains how each step transforms/merge/clean data from the raw file to tidy data
 
-0. For each of the following step, the script opens a file, stores in a data frame, does the required manipulation, and finally deletes the temporary data frames.
+For each of the following step, the script opens a file, stores in a data frame, does the required manipulation, and finally deletes the temporary data frames.
 
 1. `subject_test.txt` and `subject_train.txt` has the identifier of the subject who carried out the experiment on a test/train basis. There were 30 subjects who were observed multiple times for a total of 10299 test and train observations. These data sets were merged to have a single data set `subject_test_train` representing all the observations.
 
